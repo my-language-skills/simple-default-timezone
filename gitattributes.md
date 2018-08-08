@@ -1,0 +1,7 @@
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.github export-ignore
+/doc export-ignore
+/LICENSE.md export-ignore
+/README.md export-ignore
