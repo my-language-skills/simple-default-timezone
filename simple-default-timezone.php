@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * @package Time zone
@@ -6,14 +6,14 @@
  */
 /*
 Plugin Name: Simple default timezone
-Plugin URI: http://wordpress.org/plugins/set_default_timezone/
+Plugin URI: https://github.com/my-language-skills/simple-default-timezone
 Description: This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page.
-Author: Toni Devís
-Version: 1
-Author URI: http://ma.tt/
-* https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
+Author: colomet
+Version: 1.0
+Author URI: https://github.com/my-language-skills/
+* Base on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
 */
- 
+
 /* all the settings page in the multisite are missing */
 
 add_action('init', 'set_default_timezone');
