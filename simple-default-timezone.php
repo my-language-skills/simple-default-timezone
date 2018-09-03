@@ -121,6 +121,7 @@ function sdt_deactivate_time_zone() {
 	jQuery(function($){
 		$('#timezone_string').attr('disabled', true);
 		$('#timezone_string').after('<input type="hidden" name="timezone_string" value="'+ $('#timezone_string option:selected').val() +'">');
+		$('#timezone-description').text('You are not allowed to change timezone. Please, contact network administrator.');
 	});
 	</script>
 	<?php

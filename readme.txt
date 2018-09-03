@@ -25,6 +25,11 @@ through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Access the plugins menu through the Clear Images menu page to use the plugin.
 
+== Screenshots ==
+ 
+1. Settings field in Network Settings
+2. Disabled settings field in single-site settings
+
 == Changelog ==
 
 1.0 Initial release.
