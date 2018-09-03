@@ -25,13 +25,15 @@ Simple Default Timezone plugin provides ability to make consistent timing over a
 1. Clone (or copy) this repository folder `simple-default-timezone` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
-## upgrades
+## Upgrades
 
 For upgrades, download the las stable version from github, delete from FTP the old plugin and install the new one.
 
 ## Frequently Asked Questions
 
+### When are the changes applied after I have changed timezone in network settings?
 
+#### Immediately after settings have been saved in Network Settings page
 
 ## Requirements
 
