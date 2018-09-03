@@ -1,4 +1,4 @@
-# Simple default timezone
+# Simple Default Timezone
 
 Contributors: @colomet, @danzhik
 
