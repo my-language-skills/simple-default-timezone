@@ -33,7 +33,7 @@ For upgrades, download the las stable version from github, delete from FTP the o
 
 #### When are the changes applied after I have changed timezone in network settings?
 
-Immediately after settings have been saved in Network Settings page
+Immediately after settings have been saved in Network Settings page.
 
 ## Requirements
 
