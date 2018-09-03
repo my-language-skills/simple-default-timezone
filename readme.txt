@@ -4,17 +4,17 @@ Tags: wordpress, wordpress-plugin, timezone, multisite
 Requires at least: 4.6
 Tested up to: 4.9.8
 Stable tag: 4.9.8
-Requires PHP: 5.2.4
+Requires PHP: 7.2.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Set (default) timezone for new blogs in the network
+Set (default) timezone for all blogs
 
 == Description ==
 
-This plugin, enables you to Set (default) timezone for new blogs in the network.
+This plugin provides network administrators ability to set same time zone over all blogs in multisite installation in one click, and also it restricts changes of timezone from local blogs settings.
 
-Just for multisite. Base on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
+Just for multisite. Based on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
 
 https://github.com/my-language-skills/simple-default-timezone
 
