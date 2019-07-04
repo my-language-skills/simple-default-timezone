@@ -1,17 +1,16 @@
 <?php
 
-/**
- * @package Time zone
- * @version 1
- */
 /*
 Plugin Name: Simple default timezone
 Plugin URI: https://github.com/my-language-skills/simple-default-timezone
 Description: This plugin gives network administrators ability to set default time zone in all blogs of multisite and blocking ability to change it from single site settings.
-Authors: colomet, danzhik
-Version: 1.0
+Authors: colomet, danzhik, davideC00
+Version: 1.0.1
 Author URI: https://github.com/my-language-skills/
 Based on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
+Network: True
+Text Domain: simple-default-timezone
+Domain Path: /languages
 */
 
 // If this file is called directly, abort.
@@ -21,9 +20,9 @@ defined ("ABSPATH") or die ("No script assholes!");
 //Creating new field in Network Settings page
 add_action('wpmu_options', 'sdt_add_settings_section');
 function sdt_add_settings_section (){
-	$gmt_offset = get_site_option('sdt_network_timezone'); 
+	$gmt_offset = get_site_option('sdt_network_timezone');
     ?>
-    <h2><?php _e('Timezone Settings','simple-default-timezone'); ?></h2>
+    <h2><?php _e('Timezone Settings', 'simple-default-timezone'); ?></h2>
     <table class="form-table">
         <tbody>
             <tr>
@@ -121,9 +120,29 @@ function sdt_deactivate_time_zone() {
 	jQuery(function($){
 		$('#timezone_string').attr('disabled', true);
 		$('#timezone_string').after('<input type="hidden" name="timezone_string" value="'+ $('#timezone_string option:selected').val() +'">');
-		$('#timezone-description').text('You are not allowed to change timezone. Please, contact network administrator.');
+		$('#timezone-description').text(__('You are not allowed to change timezone. Please, contact network administrator.', 'simple-default-timezone');
 	});
 	</script>
 	<?php
 }
 
+/**
+ * For Internalization
+ * It loads the MO file for plugin's translation from the folder ./languages
+ *
+ * @param void
+ *
+ * @since 1.0.1
+ * @author Davide Cazzorla @davideC00
+ *
+ * @return void
+ */
+	function sdt_load_plugin_textdomain() {
+    load_plugin_textdomain( 'simple-default-timezone', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+
+/**
+ * For Internalization
+ * Called when the activated plugin has been loaded
+ */
+add_action( 'plugins_loaded', 'sdt_load_plugin_textdomain' );

@@ -1,6 +1,6 @@
 # Simple Default Timezone
 
-Contributors: @colomet, @danzhik
+Contributors: @colomet, @danzhik, @davideC00
 
 Donate link: https://opencollective.com/mylanguageskills
 
@@ -75,7 +75,11 @@ The Simple Default Timezone plugin is supplied "as is" and all use is at your ow
 
 ### Changelog
 
-* 1.0 Initial release
+## 1.0.1
+* ADDITIONS
+  * Plugin internationalisation
+
+## 1.0 Initial release
 
 
 ## Upgrade Notice
