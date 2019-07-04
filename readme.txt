@@ -33,7 +33,7 @@ through the WordPress plugins screen directly.
 == Changelog ==
 
 = 1.0.2 =
-ADDITIONS: Plugin Internalization
+ADDITIONS: Plugin internationalization
 
 = 1.0 =
 Initial release.

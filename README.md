@@ -77,7 +77,7 @@ The Simple Default Timezone plugin is supplied "as is" and all use is at your ow
 
 ### 1.0.1
 * ADDITIONS
-  * Plugin internationalisation
+  * Plugin internationalization
 
 ### 1.0 Initial release
 
