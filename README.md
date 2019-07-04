@@ -73,13 +73,13 @@ The Simple Default Timezone plugin is supplied "as is" and all use is at your ow
 
 ### Future
 
-### Changelog
+## Changelog
 
-## 1.0.1
+### 1.0.1
 * ADDITIONS
   * Plugin internationalisation
 
-## 1.0 Initial release
+### 1.0 Initial release
 
 
 ## Upgrade Notice
