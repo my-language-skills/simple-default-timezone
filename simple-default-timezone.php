@@ -23,9 +23,9 @@
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain:       simple-default-timezone
  * Domain Path:       /languages
- * Network: True
+ * Network: 					True
  */
- 
+
 // If this file is called directly, abort.
 defined ("ABSPATH") or die ("No script assholes!");
 
