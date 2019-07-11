@@ -1,16 +1,16 @@
 <?php
 
 /*
-Plugin Name: Simple default timezone
-Plugin URI: https://github.com/my-language-skills/simple-default-timezone
-Description: This plugin gives network administrators ability to set default time zone in all blogs of multisite and blocking ability to change it from single site settings.
-Authors: colomet, danzhik, davideC00
-Version: 1.0.1
-Author URI: https://github.com/my-language-skills/
-Based on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
-Network: True
-Text Domain: simple-default-timezone
-Domain Path: /languages
+* Plugin Name: Simple default timezone
+* Plugin URI: https://github.com/my-language-skills/simple-default-timezone
+* Description: This plugin gives network administrators ability to set default time zone in all blogs of multisite and blocking ability to change it from single site settings.
+* Version: 1.0.1
+* Author: My Language Skills team
+* Author URI: https://github.com/my-language-skills
+* Based on: https://premium.wpmudev.org/forums/topic/set-default-timezone-for-new-blogs-in-the-network
+* Network: True
+* Text Domain: simple-default-timezone
+* Domain Path: /languages
 */
 
 // If this file is called directly, abort.
