@@ -29,8 +29,13 @@
 // If this file is called directly, abort.
 defined ("ABSPATH") or die ("No script assholes!");
 
+/**
+ * Creating new field in Network Settings page.
+ *
+ * @since
+ *
+ */
 
-//Creating new field in Network Settings page
 add_action('wpmu_options', 'sdt_add_settings_section');
 function sdt_add_settings_section (){
 	$gmt_offset = get_site_option('sdt_network_timezone');
@@ -108,8 +113,13 @@ function sdt_add_settings_section (){
     <?php
 }
 
+/**
+ * Applying option update over all sites.
+ *
+ * @since
+ *
+ */
 
-//Applying option update over all sites
 add_action( 'update_wpmu_options', 'sdt_update_option' );
 function sdt_update_option() {
 
@@ -125,7 +135,13 @@ function sdt_update_option() {
 	}
 }
 
-//Blocking changing of timezone in single sites
+/**
+ * Blocking changing of timezone in single sites.
+ *
+ * @since
+ *
+ */
+
 add_action( 'admin_head', 'sdt_deactivate_time_zone' );
 function sdt_deactivate_time_zone() {
 	?>
@@ -140,22 +156,23 @@ function sdt_deactivate_time_zone() {
 }
 
 /**
- * For Internalization
- * It loads the MO file for plugin's translation from the folder ./languages
+ * For Internalization.
+ *
+ * It loads the MO file for plugin's translation from the folder ./languages.
  *
  * @param void
  *
  * @since 1.0.1
- * @author Davide Cazzorla @davideC00
  *
  * @return void
+ *
  */
 	function sdt_load_plugin_textdomain() {
     load_plugin_textdomain( 'simple-default-timezone', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
 }
 
 /**
- * For Internalization
- * Called when the activated plugin has been loaded
+ * For Internalization.
+ * Called when the activated plugin has been loaded.
  */
 add_action( 'plugins_loaded', 'sdt_load_plugin_textdomain' );
