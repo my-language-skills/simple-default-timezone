@@ -13,6 +13,9 @@ As Super Administrator, you can set the (default) timezone for all blogs.
 
 **Only works with multisite installation!**
 
+Gutenberg: compatible!
+
+
 == Description ==
 
 This plugin provides network administrators ability to set same time zone over all blogs in multisite installation in one click, and also it restricts changes of timezone from local blogs settings.

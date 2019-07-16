@@ -2,12 +2,12 @@
 
 * Contributors: @colomet, @danzhik, @davideC00
 * Donate link: https://opencollective.com/mylanguageskills
-* Tags: wordpress, multisite, timezone
+* Tags: multisite, timezone, wordpress plugin
 * Requires at least: 3.0.1
 * Tested up to: 5.2.2
 * Requires PHP: 5.6
-* Stable tag:  
-* License: GPL 3.0
+* Stable tag: 1.0.1
+* License: GPLv3 or later
 * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 * Gutemberg: compatible
 
