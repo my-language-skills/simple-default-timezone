@@ -1,22 +1,15 @@
 # Simple Default Timezone
 
-Contributors: @colomet, @danzhik, @davideC00
-
-Donate link: https://opencollective.com/mylanguageskills
-
-Tags: wordpress, multisite, timezone
-
-Tested up to: [![WordPress](https://img.shields.io/wordpress/v/akismet.svg)](https://wordpress.org/download/)
-
-Stable tag: [![Current Release](https://img.shields.io/github/release/my-language-skills/simple-default-timezone.svg)](https://github.com/my-language-skills/simple-default-timezone/releases/latest/)
-
-License:  [![License](https://img.shields.io/badge/license-GPL--3.0-red.svg)](https://github.com/my-language-skills/all-in-one-metadata/blob/master/LICENSE.txt)
-
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-
-managing timezone settings over all Multisite installation in one click.
-
-Gutenberg compatible
+* Contributors: @colomet, @danzhik, @davideC00
+* Donate link: https://opencollective.com/mylanguageskills
+* Tags: wordpress, multisite, timezone
+* Requires at least: 3.0.1
+* Tested up to: 5.2.2
+* Requires PHP: 5.6
+* Stable tag:  
+* License: GPL 3.0
+* License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+* Gutemberg: compatible
 
 ## Description
 
