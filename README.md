@@ -16,6 +16,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
 managing timezone settings over all Multisite installation in one click.
 
+Gutenberg compatible
+
 ## Description
 
 Simple Default Timezone plugin provides ability to make consistent timing over all the blogs in Multisite installation. After the plugin is installed, nobody except network administrator is allowed to manage timezones in blogs.
